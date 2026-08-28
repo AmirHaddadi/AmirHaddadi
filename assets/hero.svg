@@ -1,95 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" fill="none" font-family="'Segoe UI', 'JetBrains Mono', ui-monospace, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" fill="none" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="0.55" stop-color="#141b2d"/>
-      <stop offset="1" stop-color="#1b1035"/>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efd488"/>
+      <stop offset="0.45" stop-color="#dcb44f"/>
+      <stop offset="1" stop-color="#9c7620"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a855f7"/>
-      <stop offset="1" stop-color="#22d3ee"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#a855f7" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#e8c66b" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#e8c66b" stop-opacity="0"/>
     </radialGradient>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
-    </filter>
+    <clipPath id="nameClip"><text x="60" y="112" font-size="46" font-weight="800" letter-spacing="0.5">Amir Haddadi</text></clipPath>
     <style>
-      @keyframes drift   { from { transform: translateX(0);}   to { transform: translateX(-80px);} }
-      @keyframes float    { 0%,100%{ transform: translateY(0);} 50%{ transform: translateY(-9px);} }
-      @keyframes pulse    { 0%,100%{ opacity:.35; r:5;} 50%{ opacity:1; r:8;} }
-      @keyframes dash     { to { stroke-dashoffset: -400; } }
-      @keyframes packet   { 0%{ offset-distance:0%; } 100%{ offset-distance:100%; } }
-      @keyframes blink    { 50% { opacity: 0; } }
-      @keyframes reveal   { from { width: 0; } to { width: 560px; } }
-      @keyframes spin     { to { transform: rotate(360deg); } }
-      .grid   { animation: drift 6s linear infinite; }
-      .node   { animation: float 5s ease-in-out infinite; }
-      .n2     { animation-delay: -1s; }  .n3 { animation-delay: -2s; }
-      .n4     { animation-delay: -3s; }  .n5 { animation-delay: -1.6s; }
-      .wire   { stroke: url(#accent); stroke-width: 2; stroke-dasharray: 6 8;
-                animation: dash 3s linear infinite; opacity:.7; }
-      .dot    { fill: #22d3ee; animation: pulse 2.4s ease-in-out infinite; }
-      .packet { fill:#fde047; offset-path: path('M150 175 L330 130 L500 200 L670 130 L850 175');
-                animation: packet 4s cubic-bezier(.6,.1,.4,.9) infinite; filter:url(#soft); }
-      .cursor { animation: blink 1s step-end infinite; }
-      .type   { animation: reveal 2.6s steps(28) 0.3s both; }
-      .ring   { transform-origin: 900px 70px; animation: spin 14s linear infinite; }
-      .tag    { font-size: 13px; fill:#7dd3fc; letter-spacing:2px; }
-      .name   { font-size: 40px; font-weight: 700; fill:#e6edf3; }
-      .role   { font-size: 15px; fill:#9aa4b2; letter-spacing:1px; }
-      .chip   { font-size: 11px; fill:#c9d1d9; letter-spacing:1px; }
-      @media (prefers-reduced-motion: reduce){
-        *{ animation: none !important; }
-        .type{ width:560px; }
+      :root{
+        --bg0:#0a0a0a; --bg1:#16120a;
+        --ink:#f6f1e4; --dim:#8f897a;
+        --gold:#e8c66b; --wire:#4a4026; --node:#141009; --floor:#2a2518;
       }
+      @media (prefers-color-scheme: light){
+        :root{
+          --bg0:#faf7ef; --bg1:#efe6d0;
+          --ink:#1b1710; --dim:#7c7259;
+          --gold:#a97f22; --wire:#d8cba2; --node:#fffdf6; --floor:#e2d6b4;
+        }
+      }
+      .bg0{fill:var(--bg0)} .bg1{fill:var(--bg1)}
+      .ink{fill:var(--ink)} .dim{fill:var(--dim)}
+      .goldf{fill:var(--gold)} .golds{stroke:var(--gold)}
+      .nodebox{fill:var(--node); stroke:var(--gold); stroke-width:1.4}
+      .floor{stroke:var(--floor)}
+      .wire{stroke:var(--wire); stroke-width:2; stroke-dasharray:5 7; animation:dash 3.4s linear infinite}
+      .sheen{fill:#ffffff; opacity:.55; animation:sheen 4.5s ease-in-out infinite}
+      .grid{animation:drift 7s linear infinite}
+      .nd{animation:float 5s ease-in-out infinite}
+      .nd2{animation-delay:-1s}.nd3{animation-delay:-2s}.nd4{animation-delay:-3s}.nd5{animation-delay:-1.6s}
+      .dot{fill:var(--gold); animation:pulse 2.4s ease-in-out infinite}
+      .packet{fill:var(--gold); offset-path:path('M150 210 L330 175 L510 210 L690 175 L870 210');
+              animation:packet 4.2s cubic-bezier(.55,.1,.4,.9) infinite}
+      .ring{transform-origin:912px 66px; animation:spin 16s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-400}}
+      @keyframes drift{from{transform:translateX(0)}to{transform:translateX(-84px)}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes packet{0%{offset-distance:0%}100%{offset-distance:100%}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes sheen{0%{transform:translateX(-260px)}55%,100%{transform:translateX(360px)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.sheen{opacity:0}}
     </style>
   </defs>
 
-  <rect width="1000" height="320" fill="url(#sky)"/>
-  <ellipse cx="500" cy="330" rx="520" ry="150" fill="url(#glow)"/>
+  <rect class="bg0" width="1000" height="300"/>
+  <rect class="bg1" y="150" width="1000" height="150"/>
+  <ellipse cx="500" cy="150" rx="560" ry="180" fill="url(#halo)"/>
 
-  <!-- moving grid floor -->
-  <g class="grid" opacity="0.18" stroke="#3b82f6">
-    <path d="M-100 260 L1100 260 M-100 290 L1100 290 M-100 320 L1100 320"/>
-    <path d="M40 240 L-40 320 M140 240 L60 320 M240 240 L160 320 M340 240 L260 320
-             M440 240 L360 320 M540 240 L460 320 M640 240 L560 320 M740 240 L660 320
-             M840 240 L760 320 M940 240 L860 320 M1040 240 L960 320"/>
+  <!-- perspective floor -->
+  <g class="grid floor" opacity="0.5" stroke-width="1">
+    <path d="M-120 250 H1120 M-120 275 H1120 M-120 300 H1120"/>
+    <path d="M60 240 L-30 300 M160 240 L80 300 M260 240 L190 300 M360 240 L300 300 M460 240 L410 300 M560 240 L520 300 M660 240 L630 300 M760 240 L740 300 M860 240 L850 300 M960 240 L960 300 M1060 240 L1070 300"/>
   </g>
 
-  <!-- decorative rotating ring -->
-  <g class="ring" stroke="url(#accent)" stroke-width="1.5" opacity="0.5" fill="none">
-    <circle cx="900" cy="70" r="46" stroke-dasharray="4 10"/>
-    <circle cx="900" cy="70" r="30" stroke-dasharray="2 6"/>
+  <!-- rotating ring, top-right -->
+  <g class="ring golds" fill="none" opacity="0.55" stroke-width="1.3">
+    <circle cx="912" cy="66" r="44" stroke-dasharray="3 9"/>
+    <circle cx="912" cy="66" r="28" stroke-dasharray="2 6"/>
   </g>
-
-  <!-- pipeline wires -->
-  <path class="wire" d="M150 175 L330 130 L500 200 L670 130 L850 175"/>
-
-  <!-- pipeline nodes: Code -> Build -> Test -> Ship -> Scale -->
-  <g text-anchor="middle">
-    <g class="node">   <rect x="118" y="150" width="64" height="50" rx="10" fill="#111a2e" stroke="url(#accent)"/><text class="chip" x="150" y="180">&lt;/&gt;</text><text class="chip" x="150" y="222">CODE</text></g>
-    <g class="node n2"><rect x="298" y="105" width="64" height="50" rx="10" fill="#111a2e" stroke="url(#accent)"/><text class="chip" x="330" y="136">CI</text><text class="chip" x="330" y="176">BUILD</text></g>
-    <g class="node n3"><rect x="468" y="175" width="64" height="50" rx="10" fill="#111a2e" stroke="url(#accent)"/><text class="chip" x="500" y="205">QA</text><text class="chip" x="500" y="248">TEST</text></g>
-    <g class="node n4"><rect x="638" y="105" width="64" height="50" rx="10" fill="#111a2e" stroke="url(#accent)"/><text class="chip" x="670" y="136">DOCKER</text><text class="chip" x="670" y="176">SHIP</text></g>
-    <g class="node n5"><rect x="818" y="150" width="64" height="50" rx="10" fill="#111a2e" stroke="url(#accent)"/><text class="chip" x="850" y="180">K8s</text><text class="chip" x="850" y="222">SCALE</text></g>
-  </g>
-  <circle class="dot" cx="150" cy="175"/><circle class="dot" cx="330" cy="130" style="animation-delay:-.5s"/>
-  <circle class="dot" cx="500" cy="200" style="animation-delay:-1s"/><circle class="dot" cx="670" cy="130" style="animation-delay:-1.5s"/>
-  <circle class="dot" cx="850" cy="175" style="animation-delay:-2s"/>
-  <circle class="packet" r="5"/>
 
   <!-- headline -->
-  <text class="tag" x="60" y="70">◆ FULL-STACK · DEVOPS · CLOUD NATIVE</text>
-  <text class="name" x="58" y="120">Amir Haddadi</text>
-  <g>
-    <clipPath id="clip"><rect class="type" x="0" y="0" width="0" height="200"/></clipPath>
-    <g clip-path="url(#clip)">
-      <text class="role" x="60" y="152">from first line of code  →  production, monitored 24/7</text>
-    </g>
-    <rect class="cursor" x="60" y="140" width="9" height="14" fill="#22d3ee"/>
+  <text class="goldf" x="62" y="44" font-size="12" letter-spacing="4" font-weight="600">&#9670;  FULL-STACK  &#183;  DEVOPS  &#183;  CLOUD&#8209;NATIVE</text>
+  <text x="60" y="112" font-size="46" font-weight="800" letter-spacing="0.5" fill="url(#au)">Amir Haddadi</text>
+  <g clip-path="url(#nameClip)"><rect class="sheen" x="0" y="60" width="26" height="70" transform="skewX(-18)"/></g>
+  <text class="dim" x="62" y="140" font-size="14" letter-spacing="1.5">from first line of code &#8594; production, monitored 24/7</text>
+
+  <!-- pipeline -->
+  <path class="wire" d="M150 210 L330 175 L510 210 L690 175 L870 210"/>
+  <g text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1">
+    <g class="nd">  <rect class="nodebox" x="121" y="188" width="58" height="44" rx="9"/><text class="ink" x="150" y="215">&#60;/&#62;</text><text class="dim" x="150" y="257" font-size="11" font-weight="400" letter-spacing="1.5">CODE</text></g>
+    <g class="nd nd2"><rect class="nodebox" x="301" y="153" width="58" height="44" rx="9"/><text class="ink" x="330" y="180">CI</text><text class="dim" x="330" y="222" font-size="11" font-weight="400" letter-spacing="1.5">BUILD</text></g>
+    <g class="nd nd3"><rect class="nodebox" x="481" y="188" width="58" height="44" rx="9"/><text class="ink" x="510" y="215">QA</text><text class="dim" x="510" y="257" font-size="11" font-weight="400" letter-spacing="1.5">TEST</text></g>
+    <g class="nd nd4"><rect class="nodebox" x="661" y="153" width="58" height="44" rx="9"/><text class="ink" x="690" y="180">DKR</text><text class="dim" x="690" y="222" font-size="11" font-weight="400" letter-spacing="1.5">SHIP</text></g>
+    <g class="nd nd5"><rect class="nodebox" x="841" y="188" width="58" height="44" rx="9"/><text class="ink" x="870" y="180">K8s</text><text class="dim" x="870" y="257" font-size="11" font-weight="400" letter-spacing="1.5">SCALE</text></g>
   </g>
+  <circle class="dot" cx="150" cy="210" r="3.5"/>
+  <circle class="dot" cx="330" cy="175" r="3.5" style="animation-delay:-.6s"/>
+  <circle class="dot" cx="510" cy="210" r="3.5" style="animation-delay:-1.2s"/>
+  <circle class="dot" cx="690" cy="175" r="3.5" style="animation-delay:-1.8s"/>
+  <circle class="dot" cx="870" cy="210" r="3.5" style="animation-delay:-2.4s"/>
+  <circle class="packet" r="4.5"/>
 </svg>

@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=a855f7&labelColor=0d1117&logo=github" alt="followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=AmirHaddadi&style=for-the-badge&color=38bdf8&labelColor=0d1117" alt="views"/>
-  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-22c55e?style=for-the-badge&labelColor=0d1117" alt="hire"/></a>
+  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0a0a0a&logo=github&logoColor=D4AF37" alt="followers"/></a>
+  <img src="https://komarev.com/ghpvc/?username=AmirHaddadi&style=for-the-badge&color=D4AF37&labelColor=0a0a0a" alt="views"/>
+  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-D4AF37?style=for-the-badge&labelColor=0a0a0a" alt="hire"/></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=38BDF8&center=true&vCenter=true&width=820&lines=Full+Stack+Web+Developer+%2B+DevOps+Engineer;from+first+line+of+code+%E2%86%92+production;Node.js+%C2%B7+NestJS+%C2%B7+React+%C2%B7+Docker+%C2%B7+Kubernetes;CI%2FCD+%C2%B7+IaC+%C2%B7+Observability+%C2%B7+Zero-downtime+deploys" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=D4AF37&center=true&vCenter=true&width=820&lines=Full+Stack+Web+Developer+%2B+DevOps+Engineer;from+first+line+of+code+%E2%86%92+production;Node.js+%C2%B7+NestJS+%C2%B7+React+%C2%B7+Docker+%C2%B7+Kubernetes;CI%2FCD+%C2%B7+IaC+%C2%B7+Observability+%C2%B7+Zero-downtime+deploys" alt="typing" />
 </p>
 
 ---
@@ -83,14 +83,14 @@
 ## 📊 آمار / GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AmirHaddadi&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=38bdf8&text_color=c9d1d9" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirHaddadi&layout=compact&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AmirHaddadi&show_icons=true&hide_border=true&bg_color=00000000&title_color=D4AF37&icon_color=D4AF37&text_color=888888" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirHaddadi&layout=compact&hide_border=true&bg_color=00000000&title_color=D4AF37&text_color=888888" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmirHaddadi&hide_border=true&background=0d1117&stroke=a855f7&ring=38bdf8&fire=fde047&currStreakLabel=c9d1d9" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmirHaddadi&hide_border=true&background=00000000&stroke=D4AF37&ring=D4AF37&fire=D4AF37&currStreakLabel=888888&sideLabels=888888&dates=888888" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmirHaddadi&bg_color=0d1117&color=38bdf8&line=a855f7&point=ffffff&hide_border=true" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmirHaddadi&bg_color=00000000&color=D4AF37&line=D4AF37&point=888888&hide_border=true" width="95%" />
 </p>
 
 <!-- contribution snake — needs the workflow in step 4 below -->
@@ -105,5 +105,3 @@
 با من وارد یک **همکاری بلندمدت** می‌شوید، نه یک پروژه یک‌بارمصرف. از تحلیل نیاز و معماری اولیه تا استقرار روی سرور، مانیتورینگ و توسعه مداوم — چرخهٔ کامل محصول را پوشش می‌دهم.
 
 > محصولی که تحویل می‌دهم: **پایدار، مستند، قابل توسعه — و آماده رشد با کسب‌وکار شما.**
-
-<p align="center"><i>تمام — همین.</i></p>
