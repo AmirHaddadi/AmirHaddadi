@@ -1,41 +1,24 @@
-<!-- profile README — repo must be named exactly like your GitHub username -->
+<!-- نسخهٔ فارسی پروفایل -->
 
 <p align="center">
-  <b>🇬🇧 English</b> &nbsp;·&nbsp; <a href="./README.fa.md">🇮🇷 فارسی</a>
+  <a href="./README.md">🇬🇧 English</a> &nbsp;·&nbsp; <b>🇮🇷 فارسی</b>
 </p>
 
-<!-- Visualizer 1 / 3 — Delivery Pipeline (auto EN⇄FA, light+dark aware) -->
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="Delivery pipeline: code to production" width="100%" />
+  <img src="./assets/pipeline.svg" alt="خط تحویل: از کد تا پروداکشن" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0a0a0a&logo=github&logoColor=D4AF37" alt="followers"/></a>
   <img src="https://komarev.com/ghpvc/?username=AmirHaddadi&style=for-the-badge&color=D4AF37&labelColor=0a0a0a" alt="views"/>
-  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-D4AF37?style=for-the-badge&labelColor=0a0a0a" alt="hire"/></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=D4AF37&center=true&vCenter=true&width=820&lines=Full+Stack+Web+Developer+%2B+DevOps+Engineer;from+first+line+of+code+%E2%86%92+production;Node.js+%C2%B7+NestJS+%C2%B7+React+%C2%B7+Docker+%C2%B7+Kubernetes;CI%2FCD+%C2%B7+IaC+%C2%B7+Observability+%C2%B7+Zero-downtime+deploys" alt="typing" />
+  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A2%D8%B2%D8%A7%D8%AF-D4AF37?style=for-the-badge&labelColor=0a0a0a" alt="hire"/></a>
 </p>
 
 ---
 
-<h3 align="center">🧭 ناوبری سریع &nbsp;|&nbsp; Quick Navigation</h3>
-<p align="center">
-  <a href="#-درباره-من--about">About</a> ·
-  <a href="#%EF%B8%8F-معماری-پroduction--production-architecture">Architecture</a> ·
-  <a href="#%EF%B8%8F-چرا-وردپرس-نه--why-not-wordpress">Why Not WordPress</a> ·
-  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> ·
-  <a href="#-نمونه-کارها--projects">Projects</a> ·
-  <a href="#-آمار--github-stats">Stats</a>
-</p>
+## 👋 درباره من
 
----
-
-## 👋 درباره من / About
-
-توسعه‌دهنده فول‌استک و متخصص DevOps با تجربه در طراحی، توسعه و استقرار پلتفرم‌های تحت وب **مدرن، مقیاس‌پذیر و امن**. از خط اول کد تا محیط production — همه‌چیز را خودم مدیریت می‌کنم.
+توسعه‌دهنده فول‌استک و متخصص DevOps با تجربه در طراحی، توسعه و استقرار پلتفرم‌های تحت وب **مدرن، مقیاس‌پذیر و امن**. از خط اول کد تا محیط پروداکشن — همه‌چیز را خودم مدیریت می‌کنم.
 
 تخصص من فقط «ساختن» نیست؛ **معماری درست، استقرار بدون دردسر، مانیتورینگ هوشمند و نگهداری بلندمدت** بخش جدانشدنی کاری است که ارائه می‌دهم. کسب‌وکارها با من یک تیم فنی کامل دارند، نه فقط یک کدنویس.
 
@@ -50,20 +33,18 @@
 
 ---
 
-## 🏗️ معماری پroduction / Production Architecture
+## 🏗️ معماری پروداکشن
 
-<!-- Visualizer 2 / 3 — live request flow across edge → compute → data -->
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Production architecture with live request flow" width="100%" />
+  <img src="./assets/architecture.svg" alt="معماری پروداکشن با جریان زندهٔ درخواست‌ها" width="100%" />
 </p>
 
 ---
 
-## 🗑️ چرا وردپرس نه؟ / Why Not WordPress
+## 🗑️ چرا وردپرس نه؟
 
-<!-- Visualizer 3 / 3 — custom stack vs WordPress -->
 <p align="center">
-  <img src="./assets/wordpress-vs-custom.svg" alt="Custom-built stack versus WordPress" width="100%" />
+  <img src="./assets/wordpress-vs-custom.svg" alt="استک اختصاصی در برابر وردپرس" width="100%" />
 </p>
 
 > قالب آماده و پلاگین روی پلاگین، یعنی بدهی فنی از روز اول. من هر محصول را **اختصاصی** می‌سازم:
@@ -71,30 +52,25 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ استک فنی
 
-**Backend**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,typescript" />
-  <img src="https://img.shields.io/badge/REST_API-0d1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/WebSocket-0d1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/Microservices-0d1117?style=flat-square" />
-</p>
+**بک‌اند**
+<p><img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,typescript" /> REST API · WebSocket · Microservices</p>
 
-**Frontend**
+**فرانت‌اند**
 <p><img src="https://skillicons.dev/icons?i=react,javascript,typescript,html,css,tailwind" /></p>
 
-**Database & Cache**
+**دیتابیس و کش**
 <p><img src="https://skillicons.dev/icons?i=mongodb,redis" /></p>
 
-**DevOps & Infrastructure**
+**DevOps و زیرساخت**
 <p><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,terraform,nginx,linux,prometheus,grafana,aws,cloudflare" /></p>
 
-**Architecture & Security** · Modular / Microservices · JWT · OAuth2 · RBAC · Zero-downtime Deployment · Infrastructure as Code
+**معماری و امنیت** · معماری ماژولار / میکروسرویس · JWT · OAuth2 · RBAC · استقرار بدون قطعی · Infrastructure as Code
 
 ---
 
-## 📂 نمونه کارها / Projects
+## 📂 نمونه کارها
 
 | پروژه | توضیح | لینک |
 |---|---|---|
@@ -107,7 +83,7 @@
 
 ---
 
-## 📊 آمار / GitHub Stats
+## 📊 آمار گیت‌هاب
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=AmirHaddadi&show_icons=true&hide_border=true&bg_color=00000000&title_color=D4AF37&icon_color=D4AF37&text_color=888888" />
@@ -119,8 +95,6 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmirHaddadi&bg_color=00000000&color=D4AF37&line=D4AF37&point=888888&hide_border=true" width="95%" />
 </p>
-
-<!-- contribution snake — needs the workflow in step 4 below -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/AmirHaddadi/AmirHaddadi/output/snake.svg" alt="snake" width="95%" />
 </p>
