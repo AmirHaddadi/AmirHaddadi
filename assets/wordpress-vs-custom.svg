@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" fill="none"
+     font-family="'Segoe UI','Vazirmatn','Tahoma','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <radialGradient id="g3" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#e8c66b" stop-opacity="0.16"/><stop offset="1" stop-color="#e8c66b" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      :root{ --bg:#0b0a07; --panel:#15120b; --ink:#f4ecd6; --dim:#a99f86;
+             --gold:#e8c66b; --mut:#6f6653; --frame:#3a331d; }
+      @media (prefers-color-scheme:light){
+        :root{ --bg:#fbf5e6; --panel:#fffdf5; --ink:#231c09; --dim:#6a5f42;
+               --gold:#9a6f16; --mut:#b7ab8c; --frame:#d8c48c; }
+      }
+      .bg{fill:var(--bg)} .ink{fill:var(--ink)} .dim{fill:var(--dim)} .goldf{fill:var(--gold)}
+      .frame{stroke:var(--frame);stroke-width:1;fill:none}
+      .can{fill:var(--panel);stroke:var(--gold);stroke-width:1.8}
+      .lid{fill:var(--panel);stroke:var(--gold);stroke-width:1.8;transform-origin:150px 150px;animation:lid 3.2s ease-in-out infinite}
+      .wp{transform-origin:center;animation:toss 3.2s cubic-bezier(.5,0,.7,1) infinite}
+      .wpbox{fill:none;stroke:var(--mut);stroke-width:2}
+      .blk{opacity:0;animation:rise 0.9s ease-out forwards}
+      .b2{animation-delay:.3s}.b3{animation-delay:.6s}.b4{animation-delay:.9s}
+      .blkbox{fill:var(--panel);stroke:var(--gold);stroke-width:1.6}
+      .barwp{fill:var(--mut);transform:scaleX(0);transform-origin:left;animation:grow 1.6s cubic-bezier(.2,.8,.2,1) forwards}
+      .barcs{fill:var(--gold);transform:scaleX(0);transform-origin:left;animation:grow 1.8s cubic-bezier(.2,.8,.2,1) .3s forwards}
+      .en{animation:swEN 9s ease-in-out infinite}
+      .fa{animation:swFA 9s ease-in-out infinite}
+      @keyframes swEN{0%,40%{opacity:1}48%,92%{opacity:0}100%{opacity:1}}
+      @keyframes swFA{0%,40%{opacity:0}48%,92%{opacity:1}100%{opacity:0}}
+      @keyframes toss{0%{transform:translate(0,0) rotate(0);opacity:0}
+                      12%{opacity:1}
+                      68%{transform:translate(34px,120px) rotate(210deg);opacity:1}
+                      82%,100%{transform:translate(40px,150px) rotate(300deg);opacity:0}}
+      @keyframes lid{0%,55%,100%{transform:rotate(0)}65%{transform:rotate(-24deg)}75%{transform:rotate(-6deg)}}
+      @keyframes rise{0%{opacity:0;transform:translateY(22px)}100%{opacity:1;transform:translateY(0)}}
+      @keyframes grow{to{transform:scaleX(var(--s))}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.fa{opacity:0}
+        .blk{opacity:1}.barwp,.barcs{transform:scaleX(var(--s))}.wp{opacity:.3}}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1000" height="300"/>
+  <ellipse cx="500" cy="150" rx="580" ry="170" fill="url(#g3)"/>
+  <rect class="frame" x="1" y="1" width="998" height="298" rx="6"/>
+
+  <text class="goldf en" x="40" y="40" font-size="15" font-weight="800" letter-spacing="1">WORDPRESS?  &#8594;  &#128465;   /   CUSTOM-BUILT.  ALWAYS.</text>
+  <text class="goldf fa" x="40" y="40" font-size="16" font-weight="800">&#1608;&#1585;&#1583;&#1662;&#1585;&#1587;&#1567;  &#8594;  &#1587;&#1591;&#1604; &#1586;&#1576;&#1575;&#1604;&#1607;   /   &#1607;&#1605;&#1740;&#1588;&#1607; &#1575;&#1582;&#1578;&#1589;&#1575;&#1589;&#1740;&#1548; &#1575;&#1586; &#1662;&#1575;&#1740;&#1607;.</text>
+
+  <!-- trash + tumbling WP -->
+  <g>
+    <path class="can" d="M120 152 L134 250 Q135 258 143 258 L207 258 Q215 258 216 250 L230 152 Z"/>
+    <path class="can" d="M143 168 V244 M175 168 V244 M207 168 V244" stroke-width="1" opacity=".5"/>
+    <rect class="lid" x="110" y="140" width="80" height="14" rx="4"/>
+    <rect class="lid" x="142" y="128" width="16" height="10" rx="3"/>
+    <g class="wp">
+      <rect class="wpbox" x="132" y="46" width="52" height="52" rx="10"/>
+      <text x="158" y="79" text-anchor="middle" font-size="18" font-weight="800" fill="var(--mut)">W</text>
+    </g>
+  </g>
+
+  <!-- rising custom stack -->
+  <g text-anchor="middle" font-size="12" font-weight="700">
+    <g class="blk b4"><rect class="blkbox" x="300" y="66"  width="150" height="34" rx="8"/><text class="ink" x="375" y="88">Next.js / React</text></g>
+    <g class="blk b3"><rect class="blkbox" x="300" y="108" width="150" height="34" rx="8"/><text class="ink" x="375" y="130">Node · NestJS API</text></g>
+    <g class="blk b2"><rect class="blkbox" x="300" y="150" width="150" height="34" rx="8"/><text class="ink" x="375" y="172">PostgreSQL · Redis</text></g>
+    <g class="blk">   <rect class="blkbox" x="300" y="192" width="150" height="34" rx="8"/><text class="ink" x="375" y="214">Docker · Kubernetes</text></g>
+  </g>
+  <text class="goldf en" x="375" y="250" text-anchor="middle" font-size="11" letter-spacing="2">YOUR STACK. YOUR RULES.</text>
+  <text class="goldf fa" x="375" y="250" text-anchor="middle" font-size="12">&#1575;&#1587;&#1578;&#1705; &#1582;&#1608;&#1583;&#1578;&#1548; &#1602;&#1608;&#1575;&#1606;&#1740;&#1606; &#1582;&#1608;&#1583;&#1578;.</text>
+
+  <!-- comparison bars -->
+  <g font-size="11">
+    <text class="dim en" x="560" y="66">Speed</text>        <text class="dim fa" x="560" y="66">&#1587;&#1585;&#1593;&#1578;</text>
+    <text class="dim en" x="560" y="122">Security</text>     <text class="dim fa" x="560" y="122">&#1575;&#1605;&#1606;&#1740;&#1578;</text>
+    <text class="dim en" x="560" y="178">Scalability</text>  <text class="dim fa" x="560" y="178">&#1605;&#1602;&#1740;&#1575;&#1587;&#8204;&#1662;&#1584;&#1740;&#1585;&#1740;</text>
+    <text class="dim en" x="560" y="234">Full control</text> <text class="dim fa" x="560" y="234">&#1705;&#1606;&#1578;&#1585;&#1604; &#1705;&#1575;&#1605;&#1604;</text>
+
+    <g transform="translate(560,72)">
+      <rect x="0" y="0"  width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barwp" style="--s:.36" x="0" y="0"  width="360" height="8" rx="4"/>
+      <rect x="0" y="12" width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barcs" style="--s:.95" x="0" y="12" width="360" height="8" rx="4"/>
+    </g>
+    <g transform="translate(560,128)">
+      <rect x="0" y="0"  width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barwp" style="--s:.40" x="0" y="0"  width="360" height="8" rx="4"/>
+      <rect x="0" y="12" width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barcs" style="--s:.93" x="0" y="12" width="360" height="8" rx="4"/>
+    </g>
+    <g transform="translate(560,184)">
+      <rect x="0" y="0"  width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barwp" style="--s:.30" x="0" y="0"  width="360" height="8" rx="4"/>
+      <rect x="0" y="12" width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barcs" style="--s:.97" x="0" y="12" width="360" height="8" rx="4"/>
+    </g>
+    <g transform="translate(560,240)">
+      <rect x="0" y="0"  width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barwp" style="--s:.20" x="0" y="0"  width="360" height="8" rx="4"/>
+      <rect x="0" y="12" width="360" height="8" rx="4" fill="var(--frame)" opacity=".4"/>
+      <rect class="barcs" style="--s:1"   x="0" y="12" width="360" height="8" rx="4"/>
+    </g>
+    <text class="dim" x="928" y="70" font-size="9">WP</text>
+    <text class="goldf" x="928" y="88" font-size="9" font-weight="700">CUSTOM</text>
+  </g>
+</svg>

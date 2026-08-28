@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" fill="none"
+     font-family="'Segoe UI','Vazirmatn','Tahoma','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <linearGradient id="au" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6e3a3"/><stop offset="0.5" stop-color="#e2be5c"/><stop offset="1" stop-color="#a97f22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#e8c66b" stop-opacity="0.20"/><stop offset="1" stop-color="#e8c66b" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="nc"><text x="60" y="112" font-size="46" font-weight="800">Amir Haddadi</text></clipPath>
+    <style>
+      :root{ --bg:#0b0a07; --panel:#15120b; --ink:#f4ecd6; --dim:#a99f86;
+             --gold:#e8c66b; --wire:#e8c66b; --frame:#3a331d; }
+      @media (prefers-color-scheme:light){
+        :root{ --bg:#fbf5e6; --panel:#fffdf5; --ink:#231c09; --dim:#6a5f42;
+               --gold:#9a6f16; --wire:#b98f2c; --frame:#d8c48c; }
+      }
+      .bg{fill:var(--bg)} .panel{fill:var(--panel)} .ink{fill:var(--ink)} .dim{fill:var(--dim)}
+      .goldf{fill:var(--gold)} .frame{stroke:var(--frame);stroke-width:1}
+      .nodebox{fill:var(--panel);stroke:var(--gold);stroke-width:1.8}
+      .wire{stroke:var(--wire);stroke-width:2.4;stroke-dasharray:5 7;animation:dash 3.4s linear infinite;opacity:.85}
+      .sheen{fill:#fff;opacity:.5;animation:sheen 5s ease-in-out infinite}
+      .grid{animation:drift 7s linear infinite}
+      .nd{animation:float 5s ease-in-out infinite}
+      .nd2{animation-delay:-1s}.nd3{animation-delay:-2s}.nd4{animation-delay:-3s}.nd5{animation-delay:-1.6s}
+      .packet{fill:var(--gold);offset-path:path('M150 196 L330 161 L510 196 L690 161 L870 196');
+              animation:packet 4.2s cubic-bezier(.55,.1,.4,.9) infinite}
+      .ring{transform-origin:915px 60px;animation:spin 16s linear infinite;fill:none}
+      .ng{fill:var(--gold)}
+      .en{animation:swEN 9s ease-in-out infinite}
+      .fa{animation:swFA 9s ease-in-out infinite}
+      @keyframes swEN{0%,40%{opacity:1}48%,92%{opacity:0}100%{opacity:1}}
+      @keyframes swFA{0%,40%{opacity:0}48%,92%{opacity:1}100%{opacity:0}}
+      @keyframes dash{to{stroke-dashoffset:-400}}
+      @keyframes drift{from{transform:translateX(0)}to{transform:translateX(-84px)}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+      @keyframes packet{0%{offset-distance:0%}100%{offset-distance:100%}}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      @keyframes sheen{0%{transform:translateX(-260px)}55%,100%{transform:translateX(380px)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.sheen{opacity:0}.fa{opacity:0}}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1000" height="280"/>
+  <rect class="panel" y="140" width="1000" height="140"/>
+  <ellipse cx="500" cy="140" rx="560" ry="170" fill="url(#glow)"/>
+  <rect class="frame" x="1" y="1" width="998" height="278" rx="6" fill="none"/>
+
+  <g class="grid frame" opacity="0.55" stroke-width="1">
+    <path d="M-120 230 H1120 M-120 255 H1120"/>
+    <path d="M60 220 L-20 280 M170 220 L110 280 M280 220 L230 280 M390 220 L350 280 M500 220 L470 280 M610 220 L590 280 M720 220 L710 280 M830 220 L830 280 M940 220 L950 280"/>
+  </g>
+
+  <g class="ring" fill="none" opacity="0.5" stroke="var(--gold)" stroke-width="1.3">
+    <circle cx="915" cy="60" r="42" stroke-dasharray="3 9"/><circle cx="915" cy="60" r="27" stroke-dasharray="2 6"/>
+  </g>
+
+  <text class="goldf en" x="62" y="42" font-size="12" letter-spacing="4" font-weight="700">&#9670;  FULL-STACK  &#183;  DEVOPS  &#183;  CLOUD&#8209;NATIVE</text>
+  <text class="goldf fa" x="62" y="42" font-size="13" letter-spacing="1" font-weight="700">&#9670;  &#1601;&#1608;&#1604;&#8204;&#1575;&#1587;&#1578;&#1575;&#1705;  &#183;  &#1583;&#1608;&#1575;&#1662;&#1587;  &#183;  &#1705;&#1604;&#1575;&#1583;&#8204;&#1606;&#1740;&#1578;&#1740;&#1608;</text>
+
+  <text class="ng" x="60" y="112" font-size="46" font-weight="800" letter-spacing="0.5">Amir Haddadi</text>
+  <g clip-path="url(#nc)"><rect class="sheen" x="0" y="58" width="26" height="72" transform="skewX(-18)"/></g>
+
+  <text class="dim en" x="62" y="138" font-size="14" letter-spacing="1.2">from first line of code &#8594; production, monitored 24/7</text>
+  <text class="dim fa" x="62" y="138" font-size="14">&#1575;&#1586; &#1582;&#1591; &#1575;&#1608;&#1604; &#1705;&#1583; &#1578;&#1575; &#1662;&#1585;&#1608;&#1583;&#1575;&#1705;&#1588;&#1606;&#8204;&#8203; &#8212; &#1576;&#1575; &#1605;&#1575;&#1606;&#1740;&#1578;&#1608;&#1585;&#1740;&#1606;&#1711; &#1846;&#1844;/&#1839;</text>
+
+  <path class="wire" d="M150 196 L330 161 L510 196 L690 161 L870 196"/>
+  <g text-anchor="middle" font-size="12" font-weight="700">
+    <g class="nd">   <rect class="nodebox" x="121" y="174" width="58" height="44" rx="9"/><text class="ink" x="150" y="201">&#60;/&#62;</text>
+      <text class="dim en" x="150" y="240" font-size="11" font-weight="400" letter-spacing="1.5">CODE</text><text class="dim fa" x="150" y="240" font-size="12" font-weight="400">&#1705;&#1583;</text></g>
+    <g class="nd nd2"><rect class="nodebox" x="301" y="139" width="58" height="44" rx="9"/><text class="ink" x="330" y="166">CI</text>
+      <text class="dim en" x="330" y="205" font-size="11" font-weight="400" letter-spacing="1.5">BUILD</text><text class="dim fa" x="330" y="205" font-size="12" font-weight="400">&#1576;&#1740;&#1604;&#1583;</text></g>
+    <g class="nd nd3"><rect class="nodebox" x="481" y="174" width="58" height="44" rx="9"/><text class="ink" x="510" y="201">QA</text>
+      <text class="dim en" x="510" y="240" font-size="11" font-weight="400" letter-spacing="1.5">TEST</text><text class="dim fa" x="510" y="240" font-size="12" font-weight="400">&#1578;&#1587;&#1578;</text></g>
+    <g class="nd nd4"><rect class="nodebox" x="661" y="139" width="58" height="44" rx="9"/><text class="ink" x="690" y="166">DKR</text>
+      <text class="dim en" x="690" y="205" font-size="11" font-weight="400" letter-spacing="1.5">SHIP</text><text class="dim fa" x="690" y="205" font-size="12" font-weight="400">&#1575;&#1587;&#1578;&#1602;&#1585;&#1575;&#1585;</text></g>
+    <g class="nd nd5"><rect class="nodebox" x="841" y="174" width="58" height="44" rx="9"/><text class="ink" x="870" y="201">K8s</text>
+      <text class="dim en" x="870" y="240" font-size="11" font-weight="400" letter-spacing="1.5">SCALE</text><text class="dim fa" x="870" y="240" font-size="12" font-weight="400">&#1605;&#1602;&#1740;&#1575;&#1587;</text></g>
+  </g>
+  <circle class="packet" r="4.5"/>
+</svg>

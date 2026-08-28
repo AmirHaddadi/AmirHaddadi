@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" fill="none"
+     font-family="'Segoe UI','Vazirmatn','Tahoma','Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <radialGradient id="g2" cx="0.5" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#e8c66b" stop-opacity="0.16"/><stop offset="1" stop-color="#e8c66b" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      :root{ --bg:#0b0a07; --panel:#15120b; --ink:#f4ecd6; --dim:#a99f86;
+             --gold:#e8c66b; --wire:#e8c66b; --frame:#3a331d; }
+      @media (prefers-color-scheme:light){
+        :root{ --bg:#fbf5e6; --panel:#fffdf5; --ink:#231c09; --dim:#6a5f42;
+               --gold:#9a6f16; --wire:#b98f2c; --frame:#d8c48c; }
+      }
+      .bg{fill:var(--bg)} .ink{fill:var(--ink)} .dim{fill:var(--dim)} .goldf{fill:var(--gold)}
+      .frame{stroke:var(--frame);stroke-width:1;fill:none}
+      .box{fill:var(--panel);stroke:var(--gold);stroke-width:1.6}
+      .zone{stroke:var(--frame);stroke-width:1;stroke-dasharray:3 4;fill:none}
+      .link{stroke:var(--wire);stroke-width:2;stroke-dasharray:4 6;animation:dash 3s linear infinite;opacity:.8}
+      .api{animation:apip 2.6s ease-in-out infinite}
+      .api2{animation-delay:-.8s}.api3{animation-delay:-1.6s}
+      .p{fill:var(--gold)}
+      .p1{offset-path:path('M120 140 L480 140 L480 96 L528 96');animation:flow 3.4s linear infinite}
+      .p2{offset-path:path('M120 140 L528 140');animation:flow 3.4s linear infinite;animation-delay:-1.1s}
+      .p3{offset-path:path('M120 140 L480 140 L480 184 L528 184');animation:flow 3.4s linear infinite;animation-delay:-2.2s}
+      .p4{offset-path:path('M592 140 L616 140 L616 112 L752 112');animation:flow 2.8s linear infinite;animation-delay:-.5s}
+      .p5{offset-path:path('M592 140 L616 140 L616 172 L752 172');animation:flow 2.8s linear infinite;animation-delay:-1.5s}
+      .spark{stroke:var(--gold);stroke-width:2;fill:none;stroke-dasharray:260;stroke-dashoffset:260;animation:draw 3s ease-in-out infinite alternate}
+      .en{animation:swEN 9s ease-in-out infinite}
+      .fa{animation:swFA 9s ease-in-out infinite}
+      @keyframes swEN{0%,40%{opacity:1}48%,92%{opacity:0}100%{opacity:1}}
+      @keyframes swFA{0%,40%{opacity:0}48%,92%{opacity:1}100%{opacity:0}}
+      @keyframes dash{to{stroke-dashoffset:-300}}
+      @keyframes flow{0%{offset-distance:0%}100%{offset-distance:100%}}
+      @keyframes apip{0%,100%{opacity:.55}50%{opacity:1}}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}.fa{opacity:0}.spark{stroke-dashoffset:0}}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1000" height="280"/>
+  <ellipse cx="500" cy="150" rx="580" ry="160" fill="url(#g2)"/>
+  <rect class="frame" x="1" y="1" width="998" height="278" rx="6"/>
+
+  <text class="goldf en" x="40" y="40" font-size="15" font-weight="700" letter-spacing="2">PRODUCTION ARCHITECTURE</text>
+  <text class="goldf fa" x="40" y="40" font-size="16" font-weight="700">&#1605;&#1593;&#1605;&#1575;&#1585;&#1740; &#1587;&#1575;&#1605;&#1575;&#1606;&#1607;&#8204;&#1607;&#1575;&#1740; &#1662;&#1585;&#1608;&#1583;&#1575;&#1705;&#1588;&#1606;</text>
+
+  <!-- zones -->
+  <rect class="zone" x="40" y="60" width="330" height="170" rx="8"/>
+  <rect class="zone" x="386" y="60" width="234" height="170" rx="8"/>
+  <rect class="zone" x="636" y="60" width="324" height="170" rx="8"/>
+  <text class="dim en" x="205" y="53" text-anchor="middle" font-size="11" letter-spacing="2">EDGE</text>
+  <text class="dim fa" x="205" y="53" text-anchor="middle" font-size="12">&#1604;&#1576;&#1607; / &#1575;&#1580;</text>
+  <text class="dim en" x="503" y="53" text-anchor="middle" font-size="11" letter-spacing="2">COMPUTE</text>
+  <text class="dim fa" x="503" y="53" text-anchor="middle" font-size="12">&#1662;&#1585;&#1583;&#1575;&#1586;&#1588;</text>
+  <text class="dim en" x="798" y="53" text-anchor="middle" font-size="11" letter-spacing="2">DATA &amp; OBSERVABILITY</text>
+  <text class="dim fa" x="798" y="53" text-anchor="middle" font-size="12">&#1583;&#1740;&#1578;&#1575; &#1608; &#1605;&#1575;&#1606;&#1740;&#1578;&#1608;&#1585;&#1740;&#1606;&#1711;</text>
+
+  <!-- links -->
+  <path class="link" d="M120 140 H200 M264 140 H360 M424 140 H480 M480 96 V184 M480 96 H528 M480 140 H528 M480 184 H528"/>
+  <path class="link" d="M592 140 H616 M616 96 V184 M616 112 H752 M616 172 H752"/>
+  <path class="link" d="M822 112 C866 112 866 140 898 140 M822 172 C866 172 866 140 898 140"/>
+
+  <g text-anchor="middle" font-size="12" font-weight="700">
+    <g><circle class="box" cx="90" cy="140" r="26"/><text class="ink" x="90" y="145">USER</text></g>
+    <g><rect class="box" x="200" y="118" width="64" height="44" rx="10"/><text class="ink" x="232" y="145">CDN</text></g>
+    <g><rect class="box" x="360" y="118" width="64" height="44" rx="10"/><text class="ink" x="392" y="145">NGINX</text></g>
+    <g class="api">  <rect class="box" x="528" y="76"  width="64" height="40" rx="9"/><text class="ink" x="560" y="101">API</text></g>
+    <g class="api api2"><rect class="box" x="528" y="120" width="64" height="40" rx="9"/><text class="ink" x="560" y="145">API</text></g>
+    <g class="api api3"><rect class="box" x="528" y="164" width="64" height="40" rx="9"/><text class="ink" x="560" y="189">API</text></g>
+    <g><rect class="box" x="752" y="90"  width="70" height="44" rx="10"/><text class="ink" x="787" y="117">MongoDB</text></g>
+    <g><rect class="box" x="752" y="150" width="70" height="44" rx="10"/><text class="ink" x="787" y="177">Redis</text></g>
+    <g><rect class="box" x="898" y="112" width="66" height="56" rx="10"/><text class="ink" x="931" y="132" font-size="10">OBS</text>
+       <path class="spark" d="M905 158 L913 150 L921 154 L929 142 L937 150 L945 138 L953 146"/></g>
+  </g>
+
+  <circle class="p p1" r="3.6"/><circle class="p p2" r="3.6"/><circle class="p p3" r="3.6"/>
+  <circle class="p p4" r="3.2"/><circle class="p p5" r="3.2"/>
+
+  <text class="goldf" x="40" y="258" font-size="12" font-weight="700">&#8226; 99.98%</text>
+  <text class="dim en" x="112" y="258" font-size="11">uptime &#183; zero-downtime deploys &#183; auto-scaling</text>
+  <text class="dim fa" x="112" y="258" font-size="11">&#1575;&#1662;&#1578;&#1575;&#1740;&#1605; &#183; &#1575;&#1587;&#1578;&#1602;&#1585;&#1575;&#1585; &#1576;&#1583;&#1608;&#1606; &#1602;&#1591;&#1593;&#1740; &#1587;&#1585;&#1608;&#1740;&#1587; &#183; &#1605;&#1602;&#1740;&#1575;&#1587;&#8204;&#1662;&#1584;&#1740;&#1585;&#1740; &#1582;&#1608;&#1583;&#1705;&#1575;&#1585;</text>
+</svg>
