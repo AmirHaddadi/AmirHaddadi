@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="From code to production" width="100%" />
+  <img src="./assets/hero.png" alt="From code to production" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0b0a07&logo=github&logoColor=D4AF37" alt="followers"></a>
-  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-D4AF37?style=for-the-badge&labelColor=0b0a07" alt="hire me"></a>
+  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=E8823C&labelColor=0D0F12&logo=github&logoColor=E8823C" alt="followers"></a>
+  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-44BE80?style=for-the-badge&labelColor=0D0F12" alt="hire me"></a>
 </p>
 
 ## 👋 About

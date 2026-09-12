@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="./assets/pipeline.svg" alt="از کد تا پروداکشن" width="100%" />
+  <img src="./assets/hero.png" alt="از کد تا پروداکشن" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0b0a07&logo=github&logoColor=D4AF37" alt="followers"></a>
-  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A2%D8%B2%D8%A7%D8%AF-D4AF37&style=for-the-badge&labelColor=0b0a07" alt="استخدام"></a>
+  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=E8823C&labelColor=0D0F12&logo=github&logoColor=E8823C" alt="followers"></a>
+  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D8%A2%D8%B2%D8%A7%D8%AF-44BE80?style=for-the-badge&labelColor=0D0F12" alt="استخدام"></a>
 </p>
 
 ## 👋 درباره من
