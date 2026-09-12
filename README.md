@@ -27,15 +27,6 @@ I work across the full lifecycle: architecture, backend development, frontend in
 | E-commerce & internal systems | Monitoring & maintenance | Performance & scalability |
 | REST APIs & real-time features | Cloud / server operations | Modular architecture |
 
-## 🗑️ Why not WordPress?
-
-<p align="center">
-  <img src="./assets/wordpress-vs-custom.svg" alt="When custom development is a better fit than WordPress" width="100%" />
-</p>
-
-WordPress is useful for the right kind of website. But when a product needs **custom business logic, controlled architecture, long-term maintainability, performance or deeper integration**, a purpose-built application is usually the better fit.
-
-I build the system around the actual requirements — **without forcing the product into a theme/plugin architecture.**
 
 ## 🛠️ Core stack
 
@@ -53,7 +44,7 @@ I build the system around the actual requirements — **without forcing the prod
 | **آراکا** | پلتفرم تحت وب | https://app.arakaco.com |
 | **کارلی شاپ** | E-commerce | https://karlycollection.com |
 | **آنلاین پیامک** | پیامک و پنل خدماتی | https://onlinepayamak.com |
-| **زاگرس تک** | Industrial / corporate platform | https://zagrostech.ir |
+| **زاگرس تک** | Industrial / corporate platform | https://techzagros.ir |
 
 ## 🎯 Working approach
 
