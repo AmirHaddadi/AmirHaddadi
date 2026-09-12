@@ -1,134 +1,62 @@
-<!-- profile README — repo must be named exactly like your GitHub username -->
-
 <p align="center">
-  <b>🇬🇧 English</b> &nbsp;·&nbsp; <a href="./README.fa.md">🇮🇷 فارسی</a>
-</p>
-
-<!-- Visualizer 1 / 3 — Delivery Pipeline (auto EN⇄FA, light+dark aware) -->
-<p align="center">
-  <img src="./assets/pipeline.svg" alt="Delivery pipeline: code to production" width="100%" />
+  <a href="./README.fa.md">🇮🇷 فارسی</a> · <b>🇬🇧 English</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0a0a0a&logo=github&logoColor=D4AF37" alt="followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=AmirHaddadi&style=for-the-badge&color=D4AF37&labelColor=0a0a0a" alt="views"/>
-  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-D4AF37?style=for-the-badge&labelColor=0a0a0a" alt="hire"/></a>
+  <img src="./assets/pipeline.svg" alt="From code to production" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=D4AF37&center=true&vCenter=true&width=820&lines=Full+Stack+Web+Developer+%2B+DevOps+Engineer;from+first+line+of+code+%E2%86%92+production;Node.js+%C2%B7+NestJS+%C2%B7+React+%C2%B7+Docker+%C2%B7+Kubernetes;CI%2FCD+%C2%B7+IaC+%C2%B7+Observability+%C2%B7+Zero-downtime+deploys" alt="typing" />
+  <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=for-the-badge&color=D4AF37&labelColor=0b0a07&logo=github&logoColor=D4AF37" alt="followers"></a>
+  <a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/HIRE_ME-open-D4AF37?style=for-the-badge&labelColor=0b0a07" alt="hire me"></a>
 </p>
 
----
+## 👋 About
 
-<h3 align="center">🧭 ناوبری سریع &nbsp;|&nbsp; Quick Navigation</h3>
-<p align="center">
-  <a href="#-درباره-من--about">About</a> ·
-  <a href="#%EF%B8%8F-معماری-پroduction--production-architecture">Architecture</a> ·
-  <a href="#%EF%B8%8F-چرا-وردپرس-نه--why-not-wordpress">Why Not WordPress</a> ·
-  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> ·
-  <a href="#-نمونه-کارها--projects">Projects</a> ·
-  <a href="#-آمار--github-stats">Stats</a>
-</p>
+**Full Stack Web Developer & DevOps Engineer** focused on building custom, secure and maintainable web platforms.
 
----
+I work across the full lifecycle: architecture, backend development, frontend integration, deployment, maintenance and performance. The goal is simple — **clean engineering that stays useful after launch.**
 
-## 👋 درباره من / About
+## 🧩 What I build
 
-توسعه‌دهنده فول‌استک و متخصص DevOps با تجربه در طراحی، توسعه و استقرار پلتفرم‌های تحت وب **مدرن، مقیاس‌پذیر و امن**. از خط اول کد تا محیط production — همه‌چیز را خودم مدیریت می‌کنم.
-
-تخصص من فقط «ساختن» نیست؛ **معماری درست، استقرار بدون دردسر، مانیتورینگ هوشمند و نگهداری بلندمدت** بخش جدانشدنی کاری است که ارائه می‌دهم. کسب‌وکارها با من یک تیم فنی کامل دارند، نه فقط یک کدنویس.
-
-| 🚀 توسعه محصول | ☁️ زیرساخت و DevOps | 🔐 امنیت و کیفیت |
+| Product Engineering | Infrastructure & DevOps | Security & Reliability |
 |---|---|---|
-| سامانه‌های سازمانی اختصاصی | Pipeline کامل CI/CD | JWT · OAuth2 · SSO |
-| پلتفرم‌های SaaS چندمستأجره | Docker + Kubernetes | کنترل دسترسی مبتنی بر نقش (RBAC) |
-| فروشگاه و تجارت الکترونیک | Terraform / Ansible (IaC) | امنیت API · Rate limiting |
-| CRM و داشبورد مدیریتی | Prometheus · Grafana · ELK | بهینه‌سازی و مقیاس‌پذیری |
-| پلتفرم آموزشی LMS | AWS / Hetzner / VPS | Backup · Rollback · Zero-downtime |
-| API های REST و Real-time (WebSocket) | Staging → Pre-prod → Production | |
+| Custom web platforms | Linux / VPS deployment | JWT / Session / RBAC |
+| SaaS & multi-tenant systems | CI/CD & release workflows | API security & rate limiting |
+| CRM, dashboards & business tools | Docker & Nginx | Backup / rollback strategies |
+| E-commerce & internal systems | Monitoring & maintenance | Performance & scalability |
+| REST APIs & real-time features | Cloud / server operations | Modular architecture |
 
----
+## 🗑️ Why not WordPress?
 
-## 🏗️ معماری پroduction / Production Architecture
-
-<!-- Visualizer 2 / 3 — live request flow across edge → compute → data -->
 <p align="center">
-  <img src="./assets/architecture.svg" alt="Production architecture with live request flow" width="100%" />
+  <img src="./assets/wordpress-vs-custom.svg" alt="When custom development is a better fit than WordPress" width="100%" />
 </p>
 
----
+WordPress is useful for the right kind of website. But when a product needs **custom business logic, controlled architecture, long-term maintainability, performance or deeper integration**, a purpose-built application is usually the better fit.
 
-## 🗑️ چرا وردپرس نه؟ / Why Not WordPress
+I build the system around the actual requirements — **without forcing the product into a theme/plugin architecture.**
 
-<!-- Visualizer 3 / 3 — custom stack vs WordPress -->
-<p align="center">
-  <img src="./assets/wordpress-vs-custom.svg" alt="Custom-built stack versus WordPress" width="100%" />
-</p>
+## 🛠️ Core stack
 
-> قالب آماده و پلاگین روی پلاگین، یعنی بدهی فنی از روز اول. من هر محصول را **اختصاصی** می‌سازم:
-> کدی که مالکش خودت هستی، بدون قفلِ افزونه، با امنیت و کارایی و مقیاس‌پذیریِ واقعی.
+**Backend:** Node.js · Express · NestJS · JavaScript · TypeScript · REST API · WebSocket  
+**Frontend:** HTML · CSS · JavaScript · responsive interfaces  
+**Database:** MongoDB  
+**DevOps:** Linux · Docker · Nginx · GitHub Actions · Cloudflare · VPS  
+**Engineering:** Modular Architecture · RBAC · JWT · Session Auth · API Security · Performance Optimization
 
----
+## 📂 Selected work
 
-## 🛠️ Tech Stack
-
-**Backend**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,typescript" />
-  <img src="https://img.shields.io/badge/REST_API-0d1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/WebSocket-0d1117?style=flat-square" />
-  <img src="https://img.shields.io/badge/Microservices-0d1117?style=flat-square" />
-</p>
-
-**Frontend**
-<p><img src="https://skillicons.dev/icons?i=react,javascript,typescript,html,css,tailwind" /></p>
-
-**Database & Cache**
-<p><img src="https://skillicons.dev/icons?i=mongodb,redis" /></p>
-
-**DevOps & Infrastructure**
-<p><img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,gitlab,terraform,nginx,linux,prometheus,grafana,aws,cloudflare" /></p>
-
-**Architecture & Security** · Modular / Microservices · JWT · OAuth2 · RBAC · Zero-downtime Deployment · Infrastructure as Code
-
----
-
-## 📂 نمونه کارها / Projects
-
-| پروژه | توضیح | لینک |
+| Project | Focus | Link |
 |---|---|---|
-| **ستاد یار** | سامانه مدیریت سازمانی | <https://app.setadyar.com> |
-| **آراکا** | پلتفرم تحت وب | <https://app.arakaco.com> |
-| **کارلی شاپ** | فروشگاه اینترنتی | <https://karlycollection.com> |
-| **آنلاین پیامک** | سرویس پیامکی | <https://onlinepayamak.com> |
-| **زاگرس تک** | وب‌سایت شرکتی | <https://zagrostech.ir> |
-| **اکستنشن کروم ایران‌خودرو دیزل** | افزونه فروش | <https://esale.ikd.ir> |
+| **ستاد یار** | سازمانی / CRM / مالی | https://app.setadyar.com |
+| **آراکا** | پلتفرم تحت وب | https://app.arakaco.com |
+| **کارلی شاپ** | E-commerce | https://karlycollection.com |
+| **آنلاین پیامک** | پیامک و پنل خدماتی | https://onlinepayamak.com |
+| **زاگرس تک** | Industrial / corporate platform | https://zagrostech.ir |
 
----
+## 🎯 Working approach
 
-## 📊 آمار / GitHub Stats
+I prefer long-term, maintainable solutions over one-off delivery: **understand → architect → build → deploy → maintain → improve.**
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AmirHaddadi&show_icons=true&hide_border=true&bg_color=00000000&title_color=D4AF37&icon_color=D4AF37&text_color=888888" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmirHaddadi&layout=compact&hide_border=true&bg_color=00000000&title_color=D4AF37&text_color=888888" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AmirHaddadi&hide_border=true&background=00000000&stroke=D4AF37&ring=D4AF37&fire=D4AF37&currStreakLabel=888888&sideLabels=888888&dates=888888" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmirHaddadi&bg_color=00000000&color=D4AF37&line=D4AF37&point=888888&hide_border=true" width="95%" />
-</p>
-
-<!-- contribution snake — needs the workflow in step 4 below -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AmirHaddadi/AmirHaddadi/output/snake.svg" alt="snake" width="95%" />
-</p>
-
----
-
-## 🎯 رویکرد کاری
-
-با من وارد یک **همکاری بلندمدت** می‌شوید، نه یک پروژه یک‌بارمصرف. از تحلیل نیاز و معماری اولیه تا استقرار روی سرور، مانیتورینگ و توسعه مداوم — چرخهٔ کامل محصول را پوشش می‌دهم.
-
-> محصولی که تحویل می‌دهم: **پایدار، مستند، قابل توسعه — و آماده رشد با کسب‌وکار شما.**
+> **Build it right. Keep it maintainable. Make it ready to grow.**
