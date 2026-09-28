@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/hero.png" alt="From code to production" width="100%" />
+  <img src="./assets/banner.webp" alt="From code to production" width="100%" />
 </p>
 
 <p align="center">
