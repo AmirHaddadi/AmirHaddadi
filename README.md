@@ -1,9 +1,5 @@
 <div align="center">
 
-<a href="./README.fa.md">فارسی</a> &nbsp;·&nbsp; <b>English</b>
-
-<br><br>
-
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner.jpg">
   <img src="./assets/banner.gif" alt="Amir Haddadi — Full Stack Web Developer & DevOps Engineer · AmirWeb Academy" width="100%">
@@ -11,7 +7,10 @@
 
 <br><br>
 
-<a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/available_for-new_projects-0EE098?style=flat-square&labelColor=021F1B" alt="Available for new projects"></a>
+<a href="https://amirwebacademy.ir"><img src="https://img.shields.io/badge/amirwebacademy.ir-work_with_us-0EE098?style=for-the-badge&labelColor=021F1B" alt="amirwebacademy.ir — work with us"></a>
+<a href="https://amirwebacademy.ir/start-project"><img src="https://img.shields.io/badge/start_a_project-%E2%86%92-021F1B?style=for-the-badge&labelColor=0EE098" alt="Start a project"></a>
+
+<a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/email-hadaddi93%40gmail.com-0EE098?style=flat-square&labelColor=021F1B" alt="Email"></a>
 <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=flat-square&label=followers&color=0EE098&labelColor=021F1B&logo=github&logoColor=0EE098" alt="Followers"></a>
 <a href="https://parscoders.com/resume/451182"><img src="https://img.shields.io/badge/resume-parscoders-0EE098?style=flat-square&labelColor=021F1B" alt="Resume on ParsCoders"></a>
 <img src="https://img.shields.io/badge/based_in-Iran-0EE098?style=flat-square&labelColor=021F1B" alt="Based in Iran">
@@ -25,58 +24,62 @@
 I design, build and run web platforms end to end — from the first architecture sketch to the server it lives on.
 Backend-first, security-minded, and focused on software that is still easy to change in its second year.
 
-**Now** → building **AmirWeb Academy**, the platform I use to ship everything else.
+I lead **AmirWeb Academy**, a small team covering development, DevOps, UI/UX design, SEO and content.
 
-## `02` &nbsp;Flagship · AmirWeb Academy
+## `02` &nbsp;Work with us · [amirwebacademy.ir](https://amirwebacademy.ir)
 
 <table>
 <tr>
-<td width="150" align="center"><img src="./assets/academy.webp" width="120" alt="AmirWeb Academy"></td>
+<td width="150" align="center"><a href="https://amirwebacademy.ir"><img src="./assets/academy.webp" width="120" alt="AmirWeb Academy"></a></td>
 <td>
 
-**AmirWeb Academy · Dev & DevOps** — a native, local-first engineering cockpit (Electron + Next.js + Prisma) that puts AI coding agents, real repositories, terminals, databases and cloud deploys in one place.
+**[amirwebacademy.ir](https://amirwebacademy.ir)** is the front door to me and my team — one place to take your website or digital product from design to launch, then SEO and growth.
 
-`persistent WebGL terminal` `project motherboard` `AI task matrix` `git pilot` `snapshot vault` `cloud PaaS bridge`
+- **[Start a project](https://amirwebacademy.ir/start-project)** — describe it once; the request reaches the team instantly
+- **Services** — development & DevOps · UI/UX design · technical SEO & growth · local search & maps · content & brand studio
+- **[Blog](https://amirwebacademy.ir/blog)** — notes from real projects
 
-<sub>Native <code>.deb</code> + standalone web app · WCAG AAA design tokens · built with itself</sub>
+<sub>Runs on <b>AmirWeb Academy · Dev & DevOps</b> — our own native, local-first cockpit (Electron + Next.js + Prisma) for repos, terminals, AI agents, backups and cloud deploys.</sub>
 
 </td>
 </tr>
 </table>
 
-## `03` &nbsp;What I build
+## `03` &nbsp;Selected work
+
+| Project | What it is | Stack | Live |
+|:--|:--|:--|:--|
+| **Cherry Café** | Café platform — online ordering, table booking and loyalty club, native admin, Android self-order kiosk with card reader and receipt printer, TV order queue | `Next.js 15` `PostgreSQL` `Electron` `Capacitor` | [cherryexperience.ir](https://cherryexperience.ir) |
+| **B-Line Café** | Café ordering suite — web ordering and loyalty, desktop admin (`.deb` / `.exe`), portrait Android kiosk with POS payments and ESC/POS printing | `Next.js 15` `Prisma` `PostgreSQL` `Electron` | [blinecafe.ir](https://blinecafe.ir) |
+| **Nesino** | Personal and business finance & accounting — web + Android, admin desktop console over an HMAC-signed API | `Next.js 16` `PostgreSQL` `Electron` | [nesino.ir](https://nesino.ir) |
+| **SetadYar** | Sales & procurement assistant — contacts, official price proposals, reminders, stamped documents and tender tracking; offline-ready PWA | `Node.js` `Express` `MongoDB` | [app.setadyar.com](https://app.setadyar.com) |
+| **Araka** | Construction marketplace — projects and contractor bids, materials market, machinery rental, live support chat, OTP login, push | `Express` `MongoDB` `Capacitor` `FCM` | [app.arakaco.com](https://app.arakaco.com) |
+| **Karly Collection** | Women's fashion store — framework-free storefront, Telegram admin bot, SMS notifications | `Express` `MongoDB` | [karlycollection.com](https://karlycollection.com) |
+| **Online Payamak** | SMS service website — pixel-perfect Figma build, RTL, light & dark themes | `HTML` `CSS` `jQuery` | [onlinepayamak.com](https://onlinepayamak.com) |
+
+## `04` &nbsp;What I build
 
 | Product engineering | Infrastructure & DevOps | Security & reliability |
 |:--|:--|:--|
 | Custom web platforms | Linux / VPS deployment | JWT · Session · RBAC |
 | SaaS & multi-tenant systems | CI/CD & release pipelines | API security & rate limiting |
 | CRM, dashboards & business tools | Docker & Nginx | Backup & rollback strategy |
-| E-commerce & internal systems | Monitoring & maintenance | Performance & scalability |
-| Native desktop apps (Electron) | Cloudflare & edge | Modular architecture |
+| E-commerce, ordering & kiosk systems | Monitoring & maintenance | Performance & scalability |
+| Native desktop & Android apps | Cloudflare & edge | Modular architecture |
 
-## `04` &nbsp;Stack
+## `05` &nbsp;Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,ts,js,nextjs,react,electron,mongodb,postgres,prisma,sqlite,docker,nginx,linux,githubactions,cloudflare,python&perline=9&theme=dark" alt="Node.js, NestJS, Express, TypeScript, JavaScript, Next.js, React, Electron, MongoDB, PostgreSQL, Prisma, SQLite, Docker, Nginx, Linux, GitHub Actions, Cloudflare, Python">
 </p>
 
-## `05` &nbsp;How I ship
+## `06` &nbsp;How I ship
 
 <p align="center">
   <img src="./assets/architecture.svg" alt="From code to production: Code → CI/CD → Container → Edge → Runtime → Data, looped by monitoring, backups and rollback" width="100%">
 </p>
 
 <p align="center"><code>understand</code> → <code>architect</code> → <code>build</code> → <code>deploy</code> → <code>maintain</code> → <code>improve</code></p>
-
-## `06` &nbsp;Selected work
-
-| Project | Domain | Live |
-|:--|:--|:--|
-| **SetadYar** | Enterprise · CRM · finance | [app.setadyar.com](https://app.setadyar.com) |
-| **Araka** | Web platform | [app.arakaco.com](https://app.arakaco.com) |
-| **Karly Collection** | E-commerce | [karlycollection.com](https://karlycollection.com) |
-| **Online Payamak** | SMS & service panel | [onlinepayamak.com](https://onlinepayamak.com) |
-| **Zagros Tech** | Industrial · corporate | [techzagros.ir](https://techzagros.ir) |
 
 ## `07` &nbsp;Open source
 
@@ -101,6 +104,8 @@ Backend-first, security-minded, and focused on software that is still easy to ch
 <div align="center">
 
 **Build it right. Keep it maintainable. Make it ready to grow.**
+
+<a href="https://amirwebacademy.ir/start-project"><b>Start a project on amirwebacademy.ir →</b></a>
 
 <sub><a href="mailto:hadaddi93@gmail.com">hadaddi93@gmail.com</a> &nbsp;·&nbsp; <a href="https://parscoders.com/resume/451182">ParsCoders</a> &nbsp;·&nbsp; <a href="https://github.com/AmirHaddadi">@AmirHaddadi</a></sub>
 
