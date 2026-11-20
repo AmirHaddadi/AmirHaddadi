@@ -54,7 +54,6 @@ I lead **AmirWeb Academy**, a small team covering development, DevOps, UI/UX des
 | **Nesino** | Personal and business finance & accounting — web + Android, admin desktop console over an HMAC-signed API | `Next.js 16` `PostgreSQL` `Electron` | [nesino.ir](https://nesino.ir) |
 | **SetadYar** | Sales & procurement assistant — contacts, official price proposals, reminders, stamped documents and tender tracking; offline-ready PWA | `Node.js` `Express` `MongoDB` | [app.setadyar.com](https://app.setadyar.com) |
 | **Araka** | Construction marketplace — projects and contractor bids, materials market, machinery rental, live support chat, OTP login, push | `Express` `MongoDB` `Capacitor` `FCM` | [app.arakaco.com](https://app.arakaco.com) |
-| **Karly Collection** | Women's fashion store — framework-free storefront, Telegram admin bot, SMS notifications | `Express` `MongoDB` | [karlycollection.com](https://karlycollection.com) |
 | **Online Payamak** | SMS service website — pixel-perfect Figma build, RTL, light & dark themes | `HTML` `CSS` `jQuery` | [onlinepayamak.com](https://onlinepayamak.com) |
 
 ## `04` &nbsp;What I build
