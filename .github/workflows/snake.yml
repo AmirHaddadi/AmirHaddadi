@@ -17,8 +17,11 @@ jobs:
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # AmirWeb Academy green — dark + light variants
           outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=#D4AF37&color_dots=#0b0a07,#3a331d,#806b2a,#b98f2c,#e8c66b
+            dist/snake.svg?palette=github-dark&color_snake=#0EE098&color_dots=#062A25,#0A4A3C,#0B7A5A,#0DC784,#5FF0BE
+            dist/snake-dark.svg?palette=github-dark&color_snake=#0EE098&color_dots=#062A25,#0A4A3C,#0B7A5A,#0DC784,#5FF0BE
+            dist/snake-light.svg?palette=github-light&color_snake=#0A7A52&color_dots=#EBF5F1,#B4EAD6,#6FD8B0,#14B47E,#0A7A52
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

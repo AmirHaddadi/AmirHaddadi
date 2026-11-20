@@ -1,0 +1,9 @@
+# secrets — never commit
+git.MD
+*.env
+
+# raw source artwork (optimized copies live in assets/)
+/Code_Generated_Image.gif
+/Gemini_Generated_Image_*.jpeg
+
+.claude/
