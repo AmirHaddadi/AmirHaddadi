@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/banner.jpg">
-  <img src="./assets/banner.gif" alt="Amir Haddadi — Full Stack Web Developer & DevOps Engineer · AmirWeb Academy" width="100%">
+  <img src="./assets/banner.gif" alt="Amir Haddadi (امیر حدادی) — Founder of AmirWeb Academy (امیر وب آکادمی) · DevOps, full-stack web & SEO" width="100%">
 </picture>
 
 <br><br>
@@ -10,10 +10,12 @@
 <a href="https://amirwebacademy.ir"><img src="https://img.shields.io/badge/amirwebacademy.ir-work_with_us-0EE098?style=for-the-badge&labelColor=021F1B" alt="amirwebacademy.ir — work with us"></a>
 <a href="https://amirwebacademy.ir/start-project"><img src="https://img.shields.io/badge/start_a_project-%E2%86%92-021F1B?style=for-the-badge&labelColor=0EE098" alt="Start a project"></a>
 
-<a href="mailto:hadaddi93@gmail.com"><img src="https://img.shields.io/badge/email-hadaddi93%40gmail.com-0EE098?style=flat-square&labelColor=021F1B" alt="Email"></a>
+<a href="mailto:info@amirwebacademy.ir"><img src="https://img.shields.io/badge/email-info%40amirwebacademy.ir-0EE098?style=flat-square&labelColor=021F1B" alt="Email"></a>
+<a href="https://t.me/amirhaddadiii"><img src="https://img.shields.io/badge/telegram-%40amirhaddadiii-0EE098?style=flat-square&labelColor=021F1B&logo=telegram&logoColor=0EE098" alt="Telegram"></a>
+<a href="https://instagram.com/_amirhaddadi_"><img src="https://img.shields.io/badge/instagram-%40__amirhaddadi__-0EE098?style=flat-square&labelColor=021F1B&logo=instagram&logoColor=0EE098" alt="Instagram"></a>
 <a href="https://github.com/AmirHaddadi?tab=followers"><img src="https://img.shields.io/github/followers/AmirHaddadi?style=flat-square&label=followers&color=0EE098&labelColor=021F1B&logo=github&logoColor=0EE098" alt="Followers"></a>
 <a href="https://parscoders.com/resume/451182"><img src="https://img.shields.io/badge/resume-parscoders-0EE098?style=flat-square&labelColor=021F1B" alt="Resume on ParsCoders"></a>
-<img src="https://img.shields.io/badge/based_in-Iran-0EE098?style=flat-square&labelColor=021F1B" alt="Based in Iran">
+<img src="https://img.shields.io/badge/based_in-Lorestan%2C_Iran-0EE098?style=flat-square&labelColor=021F1B" alt="Based in Lorestan, Iran">
 
 </div>
 
@@ -21,10 +23,12 @@
 
 ## `01` &nbsp;About
 
-I design, build and run web platforms end to end — from the first architecture sketch to the server it lives on.
-Backend-first, security-minded, and focused on software that is still easy to change in its second year.
+**Hi, I'm Amir Haddadi** (امیر حدادی) — founder of **[AmirWeb Academy](https://amirwebacademy.ir)** (امیر وب آکادمی), a web academy and development team in Iran.
+I build infrastructure and product together: from the Linux server and release pipeline to the desktop app the team works in every day.
 
-I lead **AmirWeb Academy**, a small team covering development, DevOps, UI/UX design, SEO and content.
+- **DevOps** — Linux, Docker, Nginx, CI/CD, zero-downtime deploys, backups & monitoring
+- **Full-stack** — Next.js, React, TypeScript, Node.js, Electron, PostgreSQL
+- **SEO & content** — technical SEO, structured data, site speed, bilingual sites
 
 ## `02` &nbsp;Work with us · [amirwebacademy.ir](https://amirwebacademy.ir)
 
@@ -37,7 +41,8 @@ I lead **AmirWeb Academy**, a small team covering development, DevOps, UI/UX des
 
 - **[Start a project](https://amirwebacademy.ir/start-project)** — describe it once; the request reaches the team instantly
 - **Services** — development & DevOps · UI/UX design · technical SEO & growth · local search & maps · content & brand studio
-- **[Blog](https://amirwebacademy.ir/blog)** — notes from real projects
+- **[Articles](https://amirwebacademy.ir/blog)** — tutorials and notes from real projects
+- **Support** — [@amirwebacademy_support](https://t.me/amirwebacademy_support) on Telegram · [info@amirwebacademy.ir](mailto:info@amirwebacademy.ir)
 
 <sub>Runs on <b>AmirWeb Academy · Dev & DevOps</b> — our own native, local-first cockpit (Electron + Next.js + Prisma) for repos, terminals, AI agents, backups and cloud deploys.</sub>
 
@@ -106,6 +111,6 @@ I lead **AmirWeb Academy**, a small team covering development, DevOps, UI/UX des
 
 <a href="https://amirwebacademy.ir/start-project"><b>Start a project on amirwebacademy.ir →</b></a>
 
-<sub><a href="mailto:hadaddi93@gmail.com">hadaddi93@gmail.com</a> &nbsp;·&nbsp; <a href="https://parscoders.com/resume/451182">ParsCoders</a> &nbsp;·&nbsp; <a href="https://github.com/AmirHaddadi">@AmirHaddadi</a></sub>
+<sub>📍 Lorestan, Iran &nbsp;·&nbsp; <a href="mailto:info@amirwebacademy.ir">info@amirwebacademy.ir</a> &nbsp;·&nbsp; <a href="https://t.me/amirhaddadiii">Telegram</a> &nbsp;·&nbsp; <a href="https://instagram.com/_amirhaddadi_">Instagram</a> &nbsp;·&nbsp; <a href="https://parscoders.com/resume/451182">ParsCoders</a> &nbsp;·&nbsp; <a href="https://github.com/AmirHaddadi">@AmirHaddadi</a></sub>
 
 </div>
